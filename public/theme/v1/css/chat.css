@@ -1,0 +1,104 @@
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 270px;
+  }
+
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+
+ .cancel {
+    background-color: red;
+  }
+
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  .msg_container_base{
+    background: #f0e9d2;
+    margin: 0;
+    padding: 0 10px 10px;
+    height:300px;
+    overflow-x:hidden;
+  }
+
+  .msg_container_base .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .msg_container_base .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+
+  .msg_container_base .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .msg_container_base .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .msg_container_base .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+
+  .msg_container_base .time-right {
+    float: right;
+    color: #aaa;
+  }
+
+  .msg_container_base .time-left {
+    float: left;
+    color: #999;
+  }
+
+  .chat-popup .panel-heading{
+    background-color: rgb(244, 115, 33);
+    background-position: center 30%;
+}
+.chat-popup .panel-heading, .chat-popup .panel-heading a {
+    color:#fff ;
+}
+#btn-chat{
+    height: 36px;
+    background-color: #c2a84b;
+    border-color: #f47321;
+}

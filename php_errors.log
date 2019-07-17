@@ -1,0 +1,1 @@
+[23-Apr-2019 21:31:57 UTC] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 36864 bytes) in /var/www/html/vendor/composer/autoload_static.php on line 4551
